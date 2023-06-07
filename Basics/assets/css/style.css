@@ -1,0 +1,186 @@
+.cssColor1{
+    background-color: #ff1443;
+}
+.cssColor2{
+    background-color: #14ff7d;
+}
+.cssColor3{
+    background-color: indigo;
+}
+.commonCssColors{
+    color: black;
+    margin: 20px;
+    padding: 20px;
+}
+/* P7.HTML */
+.jumbotron{
+    background-color: #565656;
+    border-radius: 40px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-decoration: underline ;
+    text-transform: uppercase;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/* P8.HTML */
+.navBar{
+    background-color: black;
+}
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color:#ff1443;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color: #808080;
+}
+.navBar>img{
+    height: 54px;
+}
+/* LIST MARKER POSITION */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position:inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* USING IMAGE AS BULLET POINT */
+.list-icon>ul>li{
+    list-style-image: url(../images/campus.png);
+}
+/* LIST SHORTHAND PROPERTY */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+ /* list-style-type: decimal;
+   list-style-position: inside;
+   list-style-image: url(../images/campus.png); */
+   list-style: decimal inside url(../images/campus.png);
+}
+/* P9.HTML */
+.empty-cell-table{
+    empty-cells:hide
+}
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: dimgray;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: rgb(66, 63, 63);
+}
+.odd-even-table tr:hover{
+    background-color: #ad9a9a;
+}
+.odd-even-table th{
+    background-color: #14ff7d;
+}
+.odd-even-table td{
+    height: 200px;
+    vertical-align: middle;
+}
+.layout-table , .layout-table th, .layout-table td{
+    border: 2px;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width:10%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+/* P10.HTML */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height:64px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li>:hover{
+    background-color: #fff;
+}
+header>nav>ul>li:hover a{
+    color: #ff1443;
+}
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+/* P11.HTML and P12.HTML CODE */
+.banner1{
+    background-color:bisque;
+}
+.bannerCommonClass{
+    color: #808080;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: #000;
+}
+.bannerCommonClass>p:hover{
+    color: aqua;
+}
+.banner2{
+    background-image:  url(../images/imagess.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
